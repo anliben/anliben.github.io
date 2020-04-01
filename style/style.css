@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
 body{
     margin: 0%;
     padding: 0%;
@@ -9,58 +21,9 @@ body{
     background-repeat: no-repeat;
     color: white;
 }
-.clear{
-    clear: both;
-}
-nav{
-    padding-right: 30px;
-}
-nav li{
-    list-style: none;
-    display: inline-block;
-    position: relative;
-    font-weight: bolder;
-}
-nav li.right{
-    float: left;
-}
-nav li#habled{
-    color: white
-}
-nav li.left{
-    text-transform: uppercase;
-    color: gray;
-    float: right;
-    margin-left: 8px;
 
-}
-
-section{
-    position: relative;
-    top: 50px;
-}
-section h4{
-    font-size: 20px;
-    position: relative;
-    top: 30px;
-}
-section h1{
-    font-size: 60px;
-    font-weight: 900;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 8px;
-    padding: 0px;
-
-}
-section p{
-    position: relative;
-    top: -50px;
-    background-color: white;
-    border-radius: 50px;
-    color: black;
-    padding: 8px;
-    font-weight: 700;
-    width: 70px;
+.jumbotron{
+    opacity: 25%;
 }
 footer{
     background-color: #386CEB;
@@ -68,7 +31,4 @@ footer{
     bottom: 0px;
     width: 100%;padding: 0%;
     margin: 0%;
-}
-footer h1{
-    margin-left: 60px;
 }
