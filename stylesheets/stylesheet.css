@@ -31,6 +31,8 @@ li {
   line-height: 1.5;
   list-style: none;
   margin-left: 1.22em;
+  text-align: justify;
+  text-wrap: wrap;
 }
 
 a {
