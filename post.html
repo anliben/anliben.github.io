@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anliben - Blog Pessoal</title>
+    <title>Anliben - Post</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -18,10 +18,27 @@
     </header>
 
     <main class="main">
-        <section class="subscribe-section">
-            <div class="container">
+        <article class="post-single">
+            <div class="container container-narrow">
+                <a href="index.html" class="back-link">&larr; Voltar para o inicio</a>
+                <header class="post-header">
+                    <h1 id="post-title" class="post-title"></h1>
+                    <p id="post-subtitle" class="post-subtitle"></p>
+                    <div class="post-meta">
+                        <span class="post-author">Por Anliben</span>
+                        <span class="post-date" id="post-date"></span>
+                    </div>
+                </header>
+                <div id="post-content" class="post-content">
+                    <!-- Conteudo sera carregado via JavaScript -->
+                </div>
+            </div>
+        </article>
+
+        <section class="subscribe-section subscribe-section-post">
+            <div class="container container-narrow">
                 <div class="subscribe-box">
-                    <h2>Receba mais reflexoes</h2>
+                    <h2>Gostou dessa reflexao?</h2>
                     <p>Assine para receber novos textos diretamente no seu email.</p>
                     <form id="subscribe-form" class="subscribe-form">
                         <input
@@ -33,15 +50,6 @@
                         <button type="submit" id="subscribe-btn">Inscrever</button>
                     </form>
                     <p id="form-message" class="form-message"></p>
-                </div>
-            </div>
-        </section>
-
-        <section class="posts-section">
-            <div class="container">
-                <h2 class="section-title">Publicacoes</h2>
-                <div id="posts-list" class="posts-list">
-                    <!-- Posts serão carregados via JavaScript -->
                 </div>
             </div>
         </section>
