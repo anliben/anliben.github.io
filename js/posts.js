@@ -3,6 +3,73 @@
 
 const BLOG_POSTS = [
     {
+        id: "evolucao-tecnologia-involucao-relacionamentos",
+        title: "Evolução da Tecnologia, Involução dos Relacionamentos",
+        subtitle: "O que realmente está crescendo aqui?",
+        date: "2026-02-20",
+        content: `
+            <p>Vivemos em uma era onde os smartphones ficam mais inteligentes a cada ano, a inteligência artificial responde perguntas em segundos, e sistemas inteiros são automatizados com um clique. Mas enquanto a tecnologia acelera, vale parar e fazer uma pergunta desconfortável: e nós? Estamos evoluindo junto?</p>
+
+            <h2>A confusão que precisamos desfazer</h2>
+
+            <p>A tecnologia nunca foi criada para nos substituir. Nunca foi sobre ser mais do que o ser humano. Ela nasceu como uma ferramenta — nossa ferramenta — para facilitar o dia a dia, otimizar processos e nos dar mais tempo para o que realmente importa.</p>
+
+            <p>O problema é que em algum momento esquecemos disso. Começamos a servir à ferramenta em vez de usá-la a nosso favor.</p>
+
+            <p>Olhamos para o celular no meio de uma conversa. Substituímos um abraço por um emoji. Resolvemos conflitos por mensagem de texto. E achamos que estamos nos comunicando mais quando, na verdade, estamos nos conectando menos.</p>
+
+            <div class="separator">...</div>
+
+            <h2>60% de uma empresa de TI é sobre pessoas</h2>
+
+            <p>Quem trabalha com tecnologia sabe: por trás de todo sistema, todo software, toda solução digital existe uma equipe humana. E o maior desafio não está no código — está nas relações, na comunicação, na cultura.</p>
+
+            <p><strong>Mais de 60% dos problemas dentro de uma empresa de tecnologia têm origem nas pessoas.</strong> Não na máquina. Isso diz muito.</p>
+
+            <p>A tecnologia entrega eficiência. Mas quem entrega propósito, pertencimento e crescimento são os seres humanos. Uma empresa que esquece disso constrói sistemas brilhantes dentro de um ambiente vazio.</p>
+
+            <div class="separator">...</div>
+
+            <h2>O que o meu amigo Danilo disse que não sai da minha cabeça</h2>
+
+            <p>Certa vez, o Danilo Luque Ribeiro compartilhou algo que resume tudo isso de forma precisa:</p>
+
+            <blockquote>
+                <p>"Precisamos entender a importância dos seres humanos. De sermos um deles, pois a tendência é que as capacidades emocionais, sentimentais e cognitivas sejam o caminho nosso."</p>
+            </blockquote>
+
+            <p>Ele tem razão. No mundo onde máquinas fazem cada vez mais, o que nos torna insubstituíveis é exatamente o que não pode ser programado: a empatia, a criatividade genuína, a capacidade de sentir, de se relacionar, de se adaptar com consciência.</p>
+
+            <p><strong>Essas não são fraquezas humanas. São nossos maiores diferenciais.</strong></p>
+
+            <div class="separator">...</div>
+
+            <h2>Disciplina para usar a arma certa</h2>
+
+            <p>Uma arma nas mãos de alguém despreparado é perigosa. A tecnologia funciona da mesma forma.</p>
+
+            <p>Usada com intenção e disciplina, ela nos liberta. Usada sem consciência, ela nos aprisiona dentro de um feed infinito, de notificações que roubam foco, de conexões rasas que simulam relacionamentos.</p>
+
+            <p>A questão não é abandonar a tecnologia. <span class="highlight">É escolher como usá-la.</span> É perguntar todos os dias: essa ferramenta está me tornando uma pessoa melhor, ou está me afastando de quem eu quero ser?</p>
+
+            <div class="separator">...</div>
+
+            <h2>A verdadeira evolução</h2>
+
+            <p>A tecnologia vai continuar avançando. Isso é certo e é bom.</p>
+
+            <p>Mas a evolução que mais importa não aparece nos lançamentos de produto nem nos índices de inovação. Ela aparece na qualidade das suas conversas, na profundidade dos seus relacionamentos, na sua capacidade de estar presente de verdade.</p>
+
+            <p><strong>Evoluir como ser humano ainda é o maior projeto que você pode ter.</strong></p>
+
+            <p>E nenhum aplicativo faz isso por você.</p>
+
+            <div class="separator">...</div>
+
+            <p><em>Você acha que estamos evoluindo como pessoas na mesma velocidade que evoluímos como usuários de tecnologia? Deixa sua reflexão nos comentários.</em></p>
+        `
+    },
+    {
         id: "cafe-preto",
         title: "O Efeito Café Preto",
         subtitle: "Por que focar no que você não quer só atrai mais do mesmo",
